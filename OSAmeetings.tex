@@ -37,46 +37,16 @@
 QKD uses non-orthogonal coded single photon states, such as single photon polarization, phase or angular momentum, to provide secure information exchange for two remote users. These all can be transmitted and switched same as classic optic signal in the fiber. So far, the study on point-to-point QKD communication based on fiber-optic links has been quite mature. More and more researchers have turned to large-scale and multi-user QKD communication network systems based on existing optical devices, dnd strive to make QKD communication network and existing optical network one integration. In 2003, Paul Toliver experimented with the optical switching system of the QKD communication based on the 4x4-based 2-D MEMS switch array under the B92 protocol and reached a transmission distance of more than 10 km at the time of the device attenuation of 5.9 dB. But this system can not achieve the singals with the existence of multiple wavelengths in one fiber are transmitted and switched, only can provide signal switching services for the fiber that only contains one signal.  In 2010, Shuang Wang et al. Of China University of Science and Technology proposed a wavelength-saving quantum signal switching device composed of a three-port looper and wavelength division multiplexer, and this scheme has lower power loss and higher stability than using active device.  However this cheme alse adopted the real-time full connection, increased the complexity of the network, and is difficult to expand. Although the wavelength can be reused, but the reuse rate is relatively low. the schme above two have a certain routing path compared with the using of beam spliter, but neither considered to integrate the quantum network with the existing classical optical network. This paper presents an quantum switching node scheme supporting the coexistence of quantum signals and classical optical signals based on WSS and coupler and providing more flexible spectrum allocation and non-blocking switching for any wavelength with any bandwidth in any input port.
 
 \section{Difference between quantum communication and classical optical communication}
-To integrate quantum communication with classical optical communication, we should consider the same point and difference between quantum communication and classical optical communication. The quantum signal can't be amplified, it needs the transmission link loss to be extremely low, while the classic optical signal is not sensitive to the link loss due to the signal power is very large. The quantum signal will show in one branch of the beam splitter at a specific probability when passing through the beam splitter, while the classical optical signal is transmitted to the branch of the beam splitter at a specific ratio of the input optical power. In the process of quantum communication, the delay between quantum signal and synchronization signal
-the synchronization signal is needed to transport in the same way with quantum signal on the link layer, 
+To integrate quantum communication with classical optical communication, we should consider the same point and difference between quantum communication and classical optical communication. The quantum signal can't be amplified, it needs the transmission link loss to be extremely low, while the classic optical signal is not sensitive to the link loss due to the signal power is very large. The quantum signal will show in one branch of the beam splitter at a specific probability when passing through the beam splitter, while the classical optical signal is transmitted to the branch of the beam splitter at a specific ratio of the input optical power. In the process of quantum communication, the delay time between quantum signal and synchronization signal has an important effect on secret key generate rate.the synchronization signal is needed to transport in the same way with quantum signal on the link layer to keep the signal synchronized. However, the classical optical signal doesn't require additional synchronization signal. Meanwhile,quantum signal is extremely weak and is very easy to be disturbed by the classic optical signals of other channels, so it is very important to consider the effects of classical signals on quantum signals when this two kind of signals are transported at the same time in the same fiber or switching node. 
 
-
-During the transmission and reception of the quantum signal, the link layer transmission needs to be transmitted by the synchronization signal of the quantum signal and the quantum signal, and the delay of the quantum signal and the synchronization signal has an important influence on the error rate of the key transmission. 
-
-\subsection{Typographical Style}
-Margins and type size will be set by the OSA \LaTeX{}
-commands for title, author names and addresses, abstract,
-references, captions, and so on. The \texttt{osameet2.sty} package
-references \texttt{mathptmx.sty} for Times text and math fonts.
-Authors who require Computer Modern font may modify the style file
-or, preferably, invoke the package \texttt{ae.sty} or similar for
-optimum output with Computer Modern.
-
-\subsection{Author Names and Affiliations}
-Author names should be given in full with first initials spelled out to assist with indexing.
-Affiliations should follow the format division, organization, and address---and complete postal information should be given.
-Abbreviations should not be used. United States addresses should end
-with ``, USA.''
-
-\subsection{Abstract} The abstract
-should be limited to no more than words. It should be an
-explicit summary of the paper that states the problem, the methods
-used, and the major results and conclusions. If another publication author is referenced in the abstract, abbreviated information
-(e.g., journal, volume number, first page, year) must be
-given in the abstract itself, without a reference number. (The item referenced in the abstract should be the first
-cited reference  in the body.)
-
-\subsection{OCIS Subject Classification} Two Optics Classification and
-Indexing Scheme (OCIS) subject classifications should be placed at
-the end of the abstract with the \verb+\ocis{}+ command. OCIS
-codes can be found at
-\href{http://www.osapublishing.org/submit/ocis/}{http://www.osapublishing.org/submit/ocis/}.
-
-\subsection{Notation}
-\subsubsection{General Notation}
-Notation must be
-legible, clear, compact, and consistent with standard usage. In
-general, acronyms should be defined at first use.
+\section{Flattened switching node based on WSS}
+This article makes full use of the characteristics of WSS: (a)Flexgrid Dynamic Channel Width Control; (b)Flexgrid Dynamic Attenuation Control; (c)Channel plans are configurable 'on-the-fly'. These three features simultaneously meet the needs of quantum signal switching and classical optical signal switching, Which can be used to simultaneously transmit quantum signal and classical signal. the switching node scheme is show as figure 1.
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=8.3cm]{swtiching_node_struct}
+\caption{Switching Node Structure.}
+\end{figure}
+The switch node only have two kinds of optical devices, WSS and coupler and have the characteristics of flexible grid, multi-granularity, low loss, non-blocking. 
 
 \clearpage
 
