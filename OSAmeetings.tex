@@ -14,6 +14,8 @@
 %% standard packages and arguments should be modified as needed
 
 \usepackage{amsmath,amssymb}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
 
 %\usepackage[pdftex,colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref} %pdflatex
 \usepackage[dvips,colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref} %latex w/dvips
@@ -26,14 +28,20 @@
 \email{ymsun@bupt.edu.cn}
 
 \begin{abstract}
-Quantum key distribution provides an unconditional physical layer for secure communication.Study on switching and large-scale Networking problems in Quantum Communication could promote QKD communication to industrialization and practical. The current quantum switching nodes can only handle the wavelength of a specific bandwidth and have a strong constraint on the path of the transmission. And the spectrum reuse rate is very low. So it can't meet the demands of build large-scale network. This paper will present a WSS-based flattened flexible and non-blocking switching node that could support quantum communication and classic optical communication at the same time with multi-granularity.
+\noindent Quantum key distribution provides an unconditional physical layer for secure communication.Study on switching and large-scale Networking problems in Quantum Communication could promote QKD communication to industrialization and practical. The current quantum switching nodes can only handle the wavelength of a specific bandwidth and have a strong constraint on the path of the transmission. And the spectrum reuse rate is very low. So it can't meet the demands of build large-scale network. This paper will present a WSS-based flattened flexible and non-blocking switching node that could support quantum communication and classic optical communication at the same time with multi-granularity.
 \end{abstract}
-
 \ocis{000.0000, 999.9999.}
 
 
 \section{Introduction}
-QKD uses non-orthogonal coded single photon states, such as single photon polarization, phase or angular momentum, to provide secure information exchange for two remote users. These all can be transmitted and switched same as classic optic signal in the fiber. 
+QKD uses non-orthogonal coded single photon states, such as single photon polarization, phase or angular momentum, to provide secure information exchange for two remote users. These all can be transmitted and switched same as classic optic signal in the fiber. So far, the study on point-to-point QKD communication based on fiber-optic links has been quite mature. More and more researchers have turned to large-scale and multi-user QKD communication network systems based on existing optical devices, dnd strive to make QKD communication network and existing optical network one integration. In 2003, Paul Toliver experimented with the optical switching system of the QKD communication based on the 4x4-based 2-D MEMS switch array under the B92 protocol and reached a transmission distance of more than 10 km at the time of the device attenuation of 5.9 dB. But this system can not achieve the singals with the existence of multiple wavelengths in one fiber are transmitted and switched, only can provide signal switching services for the fiber that only contains one signal.  In 2010, Shuang Wang et al. Of China University of Science and Technology proposed a wavelength-saving quantum signal switching device composed of a three-port looper and wavelength division multiplexer, and this scheme has lower power loss and higher stability than using active device.  However this cheme alse adopted the real-time full connection, increased the complexity of the network, and is difficult to expand. Although the wavelength can be reused, but the reuse rate is relatively low. the schme above two have a certain routing path compared with the using of beam spliter, but neither considered to integrate the quantum network with the existing classical optical network. This paper presents an quantum switching node scheme supporting the coexistence of quantum signals and classical optical signals based on WSS and coupler and providing more flexible spectrum allocation and non-blocking switching for any wavelength with any bandwidth in any input port.
+
+\section{Difference between quantum communication and classical optical communication}
+To integrate quantum communication with classical optical communication, we should consider the same point and difference between quantum communication and classical optical communication. The quantum signal can't be amplified, it needs the transmission link loss to be extremely low, while the classic optical signal is not sensitive to the link loss due to the signal power is very large. The quantum signal will show in one branch of the beam splitter at a specific probability when passing through the beam splitter, while the classical optical signal is transmitted to the branch of the beam splitter at a specific ratio of the input optical power. In the process of quantum communication, the delay between quantum signal and synchronization signal
+the synchronization signal is needed to transport in the same way with quantum signal on the link layer, 
+
+
+During the transmission and reception of the quantum signal, the link layer transmission needs to be transmitted by the synchronization signal of the quantum signal and the quantum signal, and the delay of the quantum signal and the synchronization signal has an important influence on the error rate of the key transmission. 
 
 \subsection{Typographical Style}
 Margins and type size will be set by the OSA \LaTeX{}
