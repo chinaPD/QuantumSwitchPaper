@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2017.7.11)  12 JUL 2017 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2017.7.11)  13 JUL 2017 22:42
 entering extended mode
 **./OSAmeetings.tex
 (OSAmeetings.tex
@@ -528,35 +528,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
 ]
 File: swtiching_node_struct.eps Graphic file (type eps)
- <swtiching_node_struct.eps> [2]
+ <swtiching_node_struct.eps>
+File: comparisons_of_three_switching_node.eps Graphic file (type eps)
+ <comparisons_of_three_switching_node.eps>
+[2]
 Missing character: There is no ˆ in font zptmcm7t!
 Missing character: There is no ˆ in font zptmcm7t!
 Missing character: There is no ˆ in font zptmcm7t!
 File: OT10000F1.eps Graphic file (type eps)
  <OT10000F1.eps>
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 103.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+ ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [3
+)
+[3
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ (OSAmeetings.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 137.
 
-(OSAmeetings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 6782 strings out of 493319
- 97548 string characters out of 3139033
+ 6786 strings out of 493319
+ 97690 string characters out of 3139033
  185755 words of memory out of 3000000
- 10192 multiletter control sequences out of 15000+200000
+ 10195 multiletter control sequences out of 15000+200000
  28217 words of font info for 76 fonts, out of 3000000 for 9000
  1200 hyphenation exceptions out of 8191
  32i,10n,31p,2072b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on OSAmeetings.dvi (4 pages, 18464 bytes).
+Output written on OSAmeetings.dvi (4 pages, 20532 bytes).
