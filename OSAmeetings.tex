@@ -17,6 +17,10 @@
 \usepackage{indentfirst}
 \setlength{\parindent}{2em}
 
+\usepackage{floatrow}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+    
+
 %\usepackage[pdftex,colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref} %pdflatex
 \usepackage[dvips,colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref} %latex w/dvips
 
@@ -49,12 +53,22 @@ This article makes full use of the characteristics of WSS: (a)Flexgrid Dynamic C
 The switch node only have two kinds of optical devices, WSS and coupler and have the characteristics of flexible grid, multi-granularity, low loss, non-blocking. it has the flexibility to switch a variety of bandwidth signals Simultaneously and it can achieve "Packet Routing" that the signals that have same destination but have different center wavelength and bandwidth could always keep in the same fiber. Based on this switching node, we could also design a wavelength allocation algorithm to reduce the impairment on the quantum channels induced by four-wave mixing (FWM). when expanding the degree, it doesn't increase the device cascade, and it's attenuation remains the same, approximately 3.5 dB under current technical conditions.
 For classic optical signal, this switching node only have one constraint that the signals switched to the same port can't overlap in the spectrum. For example, in fig.1. wave 2 and wave 6 have different center wavelength, but their spectrum have a little intersection, so they can't be switched to the same port. For quantum signal, we could compute the channels that FWM sit on according to the current classic optical signal in the fiber, let the quantum signal stay away from these channels to reduce the interference induced by FWM when allocating the quantum signal channel. In the past studies, some have proposed switching node based on WDM and OXC, and the three-layers multi-granularity switching node based on DWDM, CWDM and OXC. There are some comparisons to these three structures below.
 
+
 \begin{table}[htb]
   \centering
-  \caption{A stunning table}
+  \caption{comparisons of three structures}
   \label{img:foobar}
   \includegraphics[width=8.3cm]{comparisons_of_three_switching_node}
 \end{table}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=8.3cm]{distance_of_transmission}
+\caption{distance of transmission}
+\end{figure}
+
+
+
 
 
 \clearpage
