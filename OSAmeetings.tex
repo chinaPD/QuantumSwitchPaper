@@ -16,9 +16,6 @@
 \usepackage{amsmath,amssymb}
 \usepackage{indentfirst}
 \setlength{\parindent}{2em}
-
-\usepackage{floatrow}
-\newfloatcommand{capbtabbox}{table}[][\FBwidth]
     
 
 %\usepackage[pdftex,colorlinks=true,bookmarks=false,citecolor=blue,urlcolor=blue]{hyperref} %pdflatex
@@ -55,64 +52,38 @@ For classic optical signal, this switching node only have one constraint that th
 
 
 \begin{table}[htb]
-  \centering
   \caption{comparisons of three structures}
-  \label{img:foobar}
-  \includegraphics[width=8.3cm]{comparisons_of_three_switching_node}
+  \centering
+  \label{tbl:excel-table}
+    \includegraphics[width=8.3cm]{comparisons_of_three_switching_node}
 \end{table}
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=8.3cm]{distance_of_transmission}
-\caption{distance of transmission}
+  \caption{distance of transmission}
 \end{figure}
 
-
-
-
-
-\clearpage
-
-\subsubsection{Math Notation}
-Equations should use standard \LaTeX{} or AMS\LaTeX{} commands (sample from Krishnan \textit{et al.} \cite{krishnan00}).
-
-\begin{eqnarray}
-\bar\varepsilon &=& \frac{\int_0ˆ\infty\varepsilon
-\exp(-\beta\varepsilon)\,{\rm d}\varepsilon}{\int_0ˆ\infty
-\exp(-\beta\varepsilon)\,{\rm d}\varepsilon}\nonumber\\
-&=& -\frac{{\rm d}}{{\rm d}\beta}\log\Biggl[\int_0ˆ\infty\exp
-(-\beta\varepsilon)\,{\rm d}\varepsilon\Biggr]=\frac1\beta=kT.
-\end{eqnarray}
-
-\section{Tables and Figures}
-Figures and illustrations should be incorporated directly into the
-manuscript, and the size of a figure should be commensurate with the amount
-and value of the information conveyed by the figure.
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=8.3cm]{OT10000F1}
-\caption{Sample figure with preferred style for labeling parts.}
+\begin{figure}[!htb]
+   \begin{minipage}{0.48\textwidth}
+     \centering
+     \includegraphics[width=.7\linewidth]{distance_of_transmission}
+     \caption{Interpolation for Data 1}\label{Fig:Data1}
+   \end{minipage}\hfill
+   \begin{minipage}{0.48\textwidth}
+     \centering
+     \includegraphics[width=.7\linewidth]{distance_of_transmission}
+     \caption{Interpolation for Data 2} \label{tbl:excel-table}
+   \end{minipage}
 \end{figure}
 
+\section{Experiment setup}
+Our experimental implementation is composed of QKD transmitter/receiver, classic optic transmitter/receiver and quantum/optic coexistence switch node. Alice have abilities of sending the quantum signal, quantum sync signal and classic optical signal. Bob could receive and parse these three kind of signal. QKD transmitter node consists of a pulsed light source (LS), a Faraday-Michelson interferences(FM) containing a phase modulator (PM) and a variable optical attenuator(VOA). QKD receiver node has one more signal photon detector(SPD). Since it is difficult to create true single photon pulses, a pulsed 1553.73nm laser diode (1-ns pulse width) with 500MHz repetition rate is followed by variable optical attenuator to approximate single photon generation. In this case, the photon number will follow a Poisson statistical distribution and, to limit eavesdropping, the power of the signal exiting Alice is set to a value lower than 1 photon per pulse on average (to reduce the probability of  any given pulse contains more than one photon). In order to detect the quantum signal within the appropriate time, we need a signal to synchronize the time of detection and set it?s center wavelength 1529.99nm. There are two 1550nm Optical Netcard for sending large data as text, image, video etc. When performing quantum communication, there are a lot base selection information needed to be send on the public network. Since the switching node is unidirectional, if we let the public network through the quantum switching node and switched by node, we need to build two switch nodes. In account cost consideration, we build another public network without switching  that connect Alice and Bob Directly. In the experiment, we set up three sets of contrast experiments. (a) Point-to-point quantum communication experiment; (b) Only quantum communication passes through the switching node; (c) Quantum communication and classical optical communication pass through the switching node at the same time. The experimental results of the three experiments are shown in the following figure.
 
-\begin{table}[htb]
- \centering \caption{Sample Table}
-\begin{tabular}{ccc}
-    \hline
-    One & Two & Three \\
-    \hline
-    Eins & Zwei & Drei \\
-    Un & Deux & Trois \\
-    Jeden & Dv\v{e} & T\v{r}i \\
-    \hline
-   \end{tabular}
-\end{table}
 
- No more than
-three figures should generally be included in the paper.
-Place figures as close as possible to where they
-are mentioned in the text. No part of a figure should extend beyond text width, and text should not wrap around figures.
+\section{Conclusions}
+We proposed a flattened flexible non-blocking switching node with quantum and classic optic coexistence, this architecture could be compatible with the switch of quantum signals and classical optical signals,  quantum communication optical network and the integration of the classic optical network to provide the basis, which provides the foundation for the integration of quantum communication optical network and classical optical network.
+
 \section{References}
 References should be cited with the \verb+\cite{}+ command.
 Bracketed citation style, as opposed to superscript, is preferred
