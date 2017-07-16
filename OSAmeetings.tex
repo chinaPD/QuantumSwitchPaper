@@ -50,46 +50,32 @@ This article makes full use of the characteristics of WSS: (a)Flexgrid Dynamic C
 The switch node only have two kinds of optical devices, WSS and coupler and have the characteristics of flexible grid, multi-granularity, low loss, non-blocking. it has the flexibility to switch a variety of bandwidth signals Simultaneously and it can achieve "Packet Routing" that the signals that have same destination but have different center wavelength and bandwidth could always keep in the same fiber. Based on this switching node, we could also design a wavelength allocation algorithm to reduce the impairment on the quantum channels induced by four-wave mixing (FWM). when expanding the degree, it doesn't increase the device cascade, and it's attenuation remains the same, approximately 3.5 dB under current technical conditions.
 For classic optical signal, this switching node only have one constraint that the signals switched to the same port can't overlap in the spectrum. For example, in fig.1. wave 2 and wave 6 have different center wavelength, but their spectrum have a little intersection, so they can't be switched to the same port. For quantum signal, we could compute the channels that FWM sit on according to the current classic optical signal in the fiber, let the quantum signal stay away from these channels to reduce the interference induced by FWM when allocating the quantum signal channel. In the past studies, some have proposed switching node based on WDM and OXC, and the three-layers multi-granularity switching node based on DWDM, CWDM and OXC. There are some comparisons to these three structures below.
 
-
-\begin{table}[htb]
-  \caption{comparisons of three structures}
-  \centering
-  \label{tbl:excel-table}
-    \includegraphics[width=8.3cm]{comparisons_of_three_switching_node}
-\end{table}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=8.3cm]{distance_of_transmission}
-  \caption{distance of transmission}
-\end{figure}
-
 \begin{figure}[!htb]
    \begin{minipage}{0.48\textwidth}
      \centering
-     \includegraphics[width=.7\linewidth]{distance_of_transmission}
+     \includegraphics[width=.9\linewidth]{comparison_of_three_kind_of_nodes}
      \caption{Interpolation for Data 1}\label{Fig:Data1}
    \end{minipage}\hfill
    \begin{minipage}{0.48\textwidth}
      \centering
-     \includegraphics[width=.7\linewidth]{distance_of_transmission}
+     \includegraphics[width=.9\linewidth]{distance_of_transmission}
      \caption{Interpolation for Data 2} \label{tbl:excel-table}
    \end{minipage}
 \end{figure}
 
 \section{Experiment setup}
+
+\begin{figure}
+ \centering
+ \includegraphics[width=.8\linewidth]{experiment_of_switching_node}
+ \caption{experiment setup of coexistence switching node}
+\end{figure}
+
 Our experimental implementation is composed of QKD transmitter/receiver, classic optic transmitter/receiver and quantum/optic coexistence switch node. Alice have abilities of sending the quantum signal, quantum sync signal and classic optical signal. Bob could receive and parse these three kind of signal. QKD transmitter node consists of a pulsed light source (LS), a Faraday-Michelson interferences(FM) containing a phase modulator (PM) and a variable optical attenuator(VOA). QKD receiver node has one more signal photon detector(SPD). Since it is difficult to create true single photon pulses, a pulsed 1553.73nm laser diode (1-ns pulse width) with 500MHz repetition rate is followed by variable optical attenuator to approximate single photon generation. In this case, the photon number will follow a Poisson statistical distribution and, to limit eavesdropping, the power of the signal exiting Alice is set to a value lower than 1 photon per pulse on average (to reduce the probability of  any given pulse contains more than one photon). In order to detect the quantum signal within the appropriate time, we need a signal to synchronize the time of detection and set it?s center wavelength 1529.99nm. There are two 1550nm Optical Netcard for sending large data as text, image, video etc. When performing quantum communication, there are a lot base selection information needed to be send on the public network. Since the switching node is unidirectional, if we let the public network through the quantum switching node and switched by node, we need to build two switch nodes. In account cost consideration, we build another public network without switching  that connect Alice and Bob Directly. In the experiment, we set up three sets of contrast experiments. (a) Point-to-point quantum communication experiment; (b) Only quantum communication passes through the switching node; (c) Quantum communication and classical optical communication pass through the switching node at the same time. The experimental results of the three experiments are shown in the following figure.
 
 
 \section{Conclusions}
 We proposed a flattened flexible non-blocking switching node with quantum and classic optic coexistence, this architecture could be compatible with the switch of quantum signals and classical optical signals,  quantum communication optical network and the integration of the classic optical network to provide the basis, which provides the foundation for the integration of quantum communication optical network and classical optical network.
-
-\section{References}
-References should be cited with the \verb+\cite{}+ command.
-Bracketed citation style, as opposed to superscript, is preferred
-\cite{krishnan00,vantrigt97,masters93,shoop97,kalman76,craig96,steup96}.
-The \texttt{osameet2.sty} style file references \texttt{cite.sty}. Comprehensive journal abbreviations are available on the CrossRef web site:
-\href{http://www.crossref.org/titleList/}{http://www.crossref.org/titleList/}.
 
 \begin{thebibliography}{99}
 

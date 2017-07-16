@@ -1,14 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.7.11)  16 JUL 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2017.7.11)  16 JUL 2017 22:30
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**OSAmeetings.tex
-(./OSAmeetings.tex
+**./OSAmeetings.tex
+(OSAmeetings.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,16 +20,17 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./osameet2.sty
+) (osameet2.sty
 Package: osameet2 2007/03/21 LaTeX package for submission to OSA's conferences
-(./cite.sty
+
+(cite.sty
 LaTeX Info: Redefining \cite on input line 149.
 LaTeX Info: Redefining \nocite on input line 214.
 Package: cite 2003/11/04  v 4.01
-) (./geometry.sty
+) (geometry.sty
 Package: geometry 2002/07/08 v3.2 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
@@ -43,31 +42,32 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
 \Gm@dimlist=\toks15
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvips.def on input line 147.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\dvips.def"
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvips.def on input line 99.
@@ -75,7 +75,7 @@ Package graphics Info: Driver file: dvips.def on input line 99.
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -111,10 +111,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/courier.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -129,7 +129,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -196,27 +196,27 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/helvet.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen109
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen110
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count90
@@ -257,27 +257,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -317,25 +317,25 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen118
 \Hy@linkcounter=\count102
 \Hy@pagecounter=\count103
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count104
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("D:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
@@ -349,7 +349,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks OFF on input line 4757.
 \c@Hy@tempcnt=\count105
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -374,10 +374,10 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver: hdvips.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hdvips.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hdvips.def"
 File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pdfmark.def
+("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pdfmark.def"
 File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
 \pdf@docset=\toks21
 \pdf@box=\box28
@@ -387,14 +387,14 @@ File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
 ))
-(./OSAmeetings.aux
+(OSAmeetings.aux
 
 LaTeX Warning: Label `tbl:excel-table' multiply defined.
 
@@ -415,7 +415,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+ ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
@@ -423,7 +423,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 24.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -------------------- Geometry parameters
@@ -468,10 +468,10 @@ driver:
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring ON on input line 24.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count113
@@ -484,25 +484,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 26
 .
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 26
 .
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 26
 .
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 26
 .
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -533,47 +533,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 ]
 File: swtiching_node_struct.eps Graphic file (type eps)
  <swtiching_node_struct.eps>
-File: comparisons_of_three_switching_node.eps Graphic file (type eps)
- <comparisons_of_three_switching_node.eps>
+File: comparison_of_three_kind_of_nodes.eps Graphic file (type eps)
+ <comparison_of_three_kind_of_nodes.eps>
 File: distance_of_transmission.eps Graphic file (type eps)
 
 <distance_of_transmission.eps>
-File: distance_of_transmission.eps Graphic file (type eps)
- <distance_of_transmission.eps>
-File: distance_of_transmission.eps Graphic file (type eps)
+File: experiment_of_switching_node.eps Graphic file (type eps)
+ <experiment_of_switching_node.eps> [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 85.
 
-<distance_of_transmission.eps> [2] [3]
-Missing character: There is no ˆ in font zptmcm7t!
-Missing character: There is no ˆ in font zptmcm7t!
-Missing character: There is no ˆ in font zptmcm7t!
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 119.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
- [4
+) [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
-
-(./OSAmeetings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 153.
+(OSAmeetings.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 108.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 6756 strings out of 492996
- 97792 string characters out of 6132730
- 185680 words of memory out of 5000000
- 10178 multiletter control sequences out of 15000+600000
- 28217 words of font info for 76 fonts, out of 8000000 for 9000
+ 6787 strings out of 493319
+ 97820 string characters out of 3139033
+ 185755 words of memory out of 3000000
+ 10195 multiletter control sequences out of 15000+200000
+ 27203 words of font info for 74 fonts, out of 3000000 for 9000
  1200 hyphenation exceptions out of 8191
- 32i,10n,31p,2069b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,31p,2103b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on OSAmeetings.dvi (4 pages, 23140 bytes).
+Output written on OSAmeetings.dvi (4 pages, 20776 bytes).
