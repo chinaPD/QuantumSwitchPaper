@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2017.7.11)  16 JUL 2017 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2017.7.11)  17 JUL 2017 20:23
 entering extended mode
 **./OSAmeetings.tex
 (OSAmeetings.tex
@@ -394,11 +394,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 ))
-(OSAmeetings.aux
-
-LaTeX Warning: Label `tbl:excel-table' multiply defined.
-
-)
+(OSAmeetings.aux)
 \openout1 = `OSAmeetings.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -510,21 +506,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 
-Underfull \hbox (badness 1789) in paragraph at lines 31--33
+Underfull \hbox (badness 1789) in paragraph at lines 32--34
 \OT1/ptm/m/n/10 com-mu-ni-ca-tion.Study on switch-ing and large-scale Net-work-
 ing prob-lems in Quan-tum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
@@ -535,36 +531,34 @@ File: swtiching_node_struct.eps Graphic file (type eps)
  <swtiching_node_struct.eps>
 File: comparison_of_three_kind_of_nodes.eps Graphic file (type eps)
  <comparison_of_three_kind_of_nodes.eps>
-File: distance_of_transmission.eps Graphic file (type eps)
+File: transmission_distance_vs_QBER_of_three_nodes_2.eps Graphic file (type eps
+)
 
-<distance_of_transmission.eps>
+<transmission_distance_vs_QBER_of_three_nodes_2.eps>
 File: experiment_of_switching_node.eps Graphic file (type eps)
- <experiment_of_switching_node.eps> [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 85.
+
+<experiment_of_switching_node.eps> [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 88.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
 
 (OSAmeetings.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 108.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
  6787 strings out of 493319
- 97820 string characters out of 3139033
+ 97906 string characters out of 3139033
  185755 words of memory out of 3000000
  10195 multiletter control sequences out of 15000+200000
  27203 words of font info for 74 fonts, out of 3000000 for 9000
  1200 hyphenation exceptions out of 8191
- 32i,5n,31p,2103b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,5n,31p,2103b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on OSAmeetings.dvi (4 pages, 20776 bytes).
+Output written on OSAmeetings.dvi (4 pages, 20868 bytes).
