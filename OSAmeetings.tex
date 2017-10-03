@@ -28,13 +28,13 @@
 \email{ymsun@bupt.edu.cn}
 
 \begin{abstract}
-We demonstrate an experiment about co-propagation of quantum and optical signals with flattened and spectrum-flexible switching node that could integrate quantum-key-communication(QKD) network with optical network and show the ability of supporting two kinds of communications and the flexibility of spectrum and bandwidth allocation.
+We demonstrate an experiment about co-propagation of quantum and optical signals with flattened and spectrum-flexible switching node that could combine quantum-key-communication(QKD) network with optical network and shows the ability of supporting two kinds of communications and the flexibility of spectrum and bandwidth allocation.
 \end{abstract}
 \ocis{(060.5565) Quantum communications, (060.1810)Co-switching devices}
 
 \section{Introduction}
 
-Quantum key distribution provides an unconditional physical layer for secure communication and uses non-orthogonal coded single photon states, such as single photon polarization, phase or angular momentum, to provide secure information. These all can be transmitted and switched as same as optical signal in the fiber. So far, the study on point-to-point co-fiber transmission for QKD communication has been quite mature. More and more researchers have turned into studying large-scale and multi-user QKD network based on optical network. In 2003, \cite{ToliverPaul} made an experiment of an optical switching system for QKD communication based on the 4x4 2-D MEMS switch array and reached a transmission distance more than 10 km. But this system couldn't support the case of the co-switching of multiple wavelengths that have different destination. In 2016, \cite{YongmeiSun} proposes a unequal frequency spacing (UFS-iWDM) frequency allocation to to reduce four-wave mixing(FWM) noise that falls at the quantum channels that improve the performance of co-propagation. The schemes above neither considered to integrate the quantum network into the existing optical network. This paper will present an flattened switching node scheme supporting the co-propagation of quantum signal and optical signal, the node is based on WSS and coupler and could provide abilities of flexible spectrum allocation and non-blocking switching.
+Quantum key distribution provides an unconditional physical layer for secure communication with using non-orthogonal coded single photon states, such as single photon polarization, phase or angular momentum. These all can be transmitted and switched as same as optical signal. With point-to-point co-fiber transmission for QKD communication has been quite mature, more and more researchers turned into studying large-scale and multi-user QKD network based on optical network. In 2010, \cite{Peters} demonstrated coexistence of classical and quantum signals for quantum key distribution in a DWDM reconfigurable network using a ROADM, but it has static allocation of resources. In 2016, \cite{YongmeiSun} proposed a unequal frequency spacing (UFS-iWDM) frequency allocation to reduce four-wave mixing(FWM) noise that falls at the quantum channels that improve the performance of co-propagation. This paper will present an flattened switching node scheme supporting the co-propagation of quantum signal and optical signal, the node is based on WSS and coupler and could provide abilities of flexible spectrum allocation and non-blocking switching.
 
 \section{Flattened and spectrum-flexible switching node based on WSS}
 
@@ -58,7 +58,7 @@ For classic signal, There is only one constraint that the signals couldn't overl
    \end{minipage}\hfill
    \begin{minipage}{0.48\textwidth}
      \centering
-     \includegraphics[height= 4cm,width=.9\linewidth]{transmission_distance_vs_QBER_of_three_nodes_3}
+     \includegraphics[height= 4cm,width=.9\linewidth]{distance_of_transmission_with_label}
      \caption{Transmission Distance vs QBER} 
      \label{Fig:distance_vs_qber}
    \end{minipage}
@@ -93,18 +93,20 @@ We demonstrate an experiment on flattened and  and Spectrum-flexible switching n
 %%We proposed a flattened flexible non-blocking switching node with quantum and classic optic coexistence, this architecture could be compatible with the switch of quantum signals and classical optical signals,  quantum communication optical network and the integration of the classic optical network to provide the basis, which provides the foundation for the integration of quantum communication optical network and classical optical network.
 
 \section{Acknowledgements}
-This work is supported in part by National Natural Science Foundation of China (Grant No. 61331008).
+This work is supported in part by National Natural Science Foundation of China (Grant No. 61331008) and Science and Technology Project of State Grid Corporation of China.
+%% (Research on Structure and Key Networking Technology of Quantum Secure Communication in Space-earth System)
+
 
 
 \begin{thebibliography}{99}
 
-\bibitem{ToliverPaul} Toliver, Paul, et al. "Experimental investigation of quantum key distribution through transparent optical switch elements." IEEE Photonics Technology Letters 15.11 (2003): 1669-1671.
+\bibitem{Peters} Peters, NA and Toliver, et al. "Quantum communications in reconfigurable optical networks: DWDM QKD through a ROADM" National Fiber Optic Engineers Conference, 2010 Conference on (OFC/NFOEC). IEEE.
 
 \bibitem{YongmeiSun} Sun, Yongmei, et al. "Reduction of FWM noise in WDM-based QKD systems using interleaved and unequally spaced channels." Chinese Optics Letters 14.6 (2016): 060602.
 
-\bibitem{WangShuang} Wang, Shuang, et al. "Field test of wavelength-saving quantum key distribution network." Optics letters 35.14 (2010): 2454-2456.
+\bibitem{ToliverPaul} Toliver, Paul, et al. "Experimental investigation of quantum key distribution through transparent optical switch elements." IEEE Photonics Technology Letters 15.11 (2003): 1669-1671.
 
-\bibitem{Jensen} Jensen, Richard, and Andrew Lord. "Novel non-blocking low loss scalable WSS architecture." Optical Fiber communication/National Fiber Optic Engineers Conference, 2008. OFC/NFOEC 2008. Conference on. IEEE, 2008.
+\bibitem{WangShuang} Wang, Shuang, et al. "Field test of wavelength-saving quantum key distribution network." Optics letters 35.14 (2010): 2454-2456.
 
 \bibitem{NiuJianing} Niu, Jianing, et al. "A Novel Scheme of Integrating QKD in WDM-PON." Asia Communications and Photonics Conference. Optical Society of America, 2016.
 
